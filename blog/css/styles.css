@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 100%;
+}
+
+#content-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: calc(1.3rem + 3.6vw);
+  color: darkred;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: calc(1rem + 1vw);
+}
+
+time {
+  font-style: italic;
+}
