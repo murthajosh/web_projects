@@ -1,0 +1,29 @@
+    <h1 id="site-header">{{title}}</h1>
+    <h2 id="site-tagline"> {{tagline}}</h2>
+      <div id="content-container">
+        <div id="left-column">
+          <h3> Recent Posts</h3>
+        <ul>
+          {{#each recent_posts}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+          
+        </div>
+        <div id="right-column">
+          <article>
+            <h3>{{post_title}}</h3>
+            <h4>{{post_subtitle}}</h4>
+            <time>{{publish_date}}</time>
+            <div class="author-name">{{author_name}}</div>
+            <div class="article-body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </p>
+             </div>
+          </article>
+      </div>
+    </div>
